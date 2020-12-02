@@ -1,0 +1,9 @@
+#!/usr/bin/wish
+
+# 配信中のテキスト変更のアイディアは↓こちらの note を参考にさせて頂きました。
+# https://note.com/s_numaguchi/n/n5a5211a40ae8
+
+cd [file dirname [info script]]
+
+pack [button .next -text 次へ -command [list exec ./next.pl ./script.txt]] \
+    -fill both -expand yes
