@@ -1,4 +1,4 @@
-PROMPT='demo-%h%# '
+PROMPT='demo-%m%# '
 RPROMPT=' %~'
 
 autoload compinit
